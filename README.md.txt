@@ -33,34 +33,3 @@ This project requires deployment as a Web App through the Google Apps Script int
 1.  **Clone the Repository:** Use `clasp clone <Script-ID>` to pull the code.
 2.  **Link Data Source:** Ensure the code is linked to the correct Google Sheet containing the referral data.
 3.  **Deploy as Web App:** Set execution to **"User accessing the web app"** for proper security context.
-
----
-
-### ➡️ Next Step: Commit and Push
-
-Once you've saved the `README.md` file in your `ReferralLookupApp` folder, run these final commands in your terminal to complete the GitHub setup:
-
-1.  **Initialize Git:**
-    ```bash
-    git init
-    ```
-
-2.  **Add all files (including the new README):**
-    ```bash
-    git add .
-    ```
-
-3.  **Commit the files:**
-    ```bash
-    git commit -m "Initial commit of specialist referral lookup application"
-    ```
-
-4.  **Connect to GitHub:** (Use the exact URL provided by your new GitHub repo)
-    ```bash
-    git remote add origin [https://github.com/YourUsername/specialist-referral-lookup.git](https://github.com/YourUsername/specialist-referral-lookup.git)
-    ```
-
-5.  **Push the code:**
-    ```bash
-    git push -u origin main
-    ```
